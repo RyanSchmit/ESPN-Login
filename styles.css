@@ -1,0 +1,40 @@
+.espnLogo {
+    width: 10%;
+}
+
+.x {
+    width: 3%;
+    position: absolute;
+    right: 0;
+}
+
+.images {
+    text-align: center;
+}
+.loginItems {
+    text-align: center;
+}
+
+.login {
+    display: grid;
+    justify-items: center;
+}
+
+.username, .password, .loginBtn, .signUpBtn {
+    width: 40%;
+}
+
+.username {
+    padding-bottom: 10pt;
+}
+
+.loginBtn {
+    background-color: blue;
+    color: white;
+}
+
+.signUpBtn :hover {
+    background-color: blue;
+    color: white;
+  }
+
