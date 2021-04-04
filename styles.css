@@ -4,6 +4,7 @@ body {
 
 .inner {
     background-color: white;
+    border-radius: 10px;
     width: 35%;
     margin: auto;
     margin-top: 20pt;
