@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/6Jaqkn0Ok9ycbZ0TdDTZ9OAaNfQ3v0J8ftP4QQG-MHnUGIej7-5nLBFTREa0i9EgjHM">
+    <title>Log In</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Espn login</title>
+    <link rel="shortcut icon" href="e.png">
 </head>
 <body>
     <div class="inner">
-        <div class="images">
-            <img class="espnLogo" src="http://olddirtydermot.com/wp-content/uploads/2018/01/espn-logo.png">
-        <img class="x" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAAAHlBMVEX///91dXWUlJT5+fmXl5d7e3vf39/d3d2bm5uampo2RpiZAAACuklEQVR4nO2cCW4CMRAEsxAI+f+HgxBBe/gYr3s8banrAUuVlHDYo/n6EkIIIYQQQgghhBBCCCGEEEIIIYrcH1efB18fd58Hb7nflotLwfWy3AYUPP0Xl4Kn/zKg4OXvUfDy9y94++ML3v7eBT///uiCj79vwcofW7Dy9yzY+CMLNv5+BTt/XMHO36vg4I8qOPj7FCT8MQUJf5eC38TLIAqS/svyQDhbXqi3IPPYb6+PenTBQH+XgqH+DgWD/eEFw/3BBQH+0IIQf2BBkD+sIMwfVBDoDykI9QcUBPt3F4T7dxYQ+HcVUPh3FJD4ny6g8T9ZQOR/qoDK/0QBmX9zAZ1/YwGhf1MBpX9DAam/uYDW31hA7G8qoPY3FJD7Vwvo/SsFE/gXC6bwLxRM4p8vmMU/WzCNf0sBp7+9gNXfWsDrbytg9rcUcPvXC9j9awX8/uWCGfxLBXP45wtm8c8G+Exr4sn/Cc1RUPonnqGg/DbKX1D7IGMvqH+V4C6wfJljLrB9neYtsP6gYS2w/6TkLGj5Uc9YkDv/8ZnWxJM9v3KaN0VTOH+boqB4fjhBQeX8k76gen5LXmA4f6YuMJ2fExcYz/9pC8z3F6QFDfcvlAVN90eEBY33X3QFzfd3ZAUn7h+pCk7dnxIVnLz/pSk4fX9NUtBx/05R0DU/QFDQOf8QXtA9vxFcAJg/CS2AzM8EFoDmf8IKYPNLQQXA+auQAuj8WEABeP5teAF8fm9wgcP84dACl/nJgQVO85/jCtKLMfrnNzIF+MUY99RqEsT8SbLAY7lKogAzP5Mo8FlvcyhAzf8cCrwWDO0KcPNLuwK/FU+bAuT81abAc8nWqgA7P7Yq8F1z9ilAz799CgYtmsPP770LBq36c9tfNGjZotv+ohH+86/rFEIIIYQQQgghhBBCCCGEEEIIMTN/ZHQZITF96PQAAAAASUVORK5CYII=">
+            <img class="espnLogo" src="espnLogo.svg">
+            <a href="https://www.espn.com/"><img class="x" src="x-mark.png"></a>
+        <div class="input">
+            <input id="username" class="username" type="text" placeholder="Username or Email Address"><br>
+            <input id="password" class="password" type="password" placeholder="Password">
         </div>
-        <div class="loginItems">
-            <div class="login">
-                <input class="username" placeholder="Username or Email Address" type="text">
-                <input class="password" placeholder="Password" type="password">
-                <button class="loginBtn">Log In</button>
-            </div>
-            <a href="/index.html">Need help logging in?</a>
-            <p>Facebook Log In is no longer available. For help logging in, please use the link above.</p> 
-            <button class="signUpBtn">Sign Up</button>
+        <div class="bottom">
+            <a onclick="saveInputs()" class="login">Log In</a><br>
+            <a class="help" href="index.html">Need help logging in?</a>
+            <p>Facebook Log In is no longer available. For help logging in, please use the link above.</p>
+            <a href="index.html" class="signUp">Sign Up</a>
         </div>
-    </div>
-    <div class="outer"> 
     </div>
 </body>
+<script src="script.js"></script>
 </html>
